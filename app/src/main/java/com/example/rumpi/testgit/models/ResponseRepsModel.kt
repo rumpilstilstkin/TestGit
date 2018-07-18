@@ -1,0 +1,13 @@
+package com.example.rumpi.testgit.models
+
+
+///////////////////////////////////////////////////////////////////////////
+// Response Reps Model
+///////////////////////////////////////////////////////////////////////////
+
+data class ResponseRepsModel(
+        val total_count: Int,
+        val incomplete_results: Boolean,
+        val items: List<RepModel>
+
+)
